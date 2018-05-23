@@ -3,6 +3,7 @@
 kubectl create -f 1_azure-secret.yaml
 kubectl create -f 2_mysql-secret.yaml
 kubectl create -f 3_mysql-pv.yaml
+kubectl create -f 3_storageclass.yaml
 kubectl create -f 4_mysql-pvc.yaml
 kubectl create -f 5_mysql-deployment.yaml
 kubectl create -f 6_mysql-svc.yaml
